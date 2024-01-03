@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/z2edsp85dqgu/public_html/
+    - export DEPLOYPATH=/home/z2edsp85dqgu/public_html/hello-elementor-child/wp-content/themes/hello-elementor-child
     - /bin/cp * $DEPLOYPATH
  
