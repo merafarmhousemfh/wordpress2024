@@ -1,0 +1,27 @@
+/*
+Theme Name: hello-elementor-child
+Theme URI: [Enter the URL of your child theme's website or leave it blank]
+Description: My custom child theme based on generatepress.
+Author: [Tarun]
+Author URI: [Your website URL or leave it blank]
+Template: hello-elementor
+Version: 1.0
+*/
+
+/* Custom styles go below this line */
+
+@media screen and (max-width: 767px) {
+    .blog_detail_section .blog_inner_pannel {
+        margin-top: -70px;
+        padding: 25px 20px;
+    }
+
+    .blog_detail_section .blog_inner_pannel {
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        padding: 45px 60px;
+        margin-top: -120px;
+        position: relative;
+        box-shadow: 0 8px 30px #c0bad76b;
+    }
+}
